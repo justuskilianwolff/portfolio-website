@@ -49,6 +49,11 @@
 			name: 'Willidrop',
 			logo: asset('/logos/willidrop.svg'),
 			href: 'https://willidrop.com/'
+		},
+		{
+			name: 'Cara8',
+			logo: asset('/logos/cara8.svg'),
+			href: 'https://cara8.ai/'
 		}
 	];
 
