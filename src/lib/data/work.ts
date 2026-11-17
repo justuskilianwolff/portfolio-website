@@ -88,7 +88,7 @@ export const projects: TimelineEvent[] = [
 		skills: [Svelte, TypeScript, Tailwind],
 		links: [
 			{
-				url: 'https://github.com/justuskilianwolff/personal-portfolio-website',
+				url: 'https://github.com/justuskilianwolff/portfolio-website',
 				text: 'Source Code @ GitHub'
 			}
 		]
