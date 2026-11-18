@@ -1,6 +1,6 @@
 <script lang="ts">
-	import TimelineEvent from '$lib/TimelineEvent.svelte';
-	import { education, research, teaching } from '$lib/data/academics';
+	import TimelineEvent from '#lib/TimelineEvent.svelte';
+	import { education, research, teaching } from '#lib/data/academics.ts';
 </script>
 
 <svelte:head>

@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { asset, resolve } from '$app/paths';
-	import OfferTabs from '$lib/OfferTabs.svelte';
-	import OptimizationContour from '$lib/OptimizationContour.svelte';
-	import ProfilePortrait from '$lib/ProfilePortrait.svelte';
+	import OfferTabs from '#lib/OfferTabs.svelte';
+	import OptimizationContour from '#lib/OptimizationContour.svelte';
+	import ProfilePortrait from '#lib/ProfilePortrait.svelte';
 	import { onMount } from 'svelte';
 
 	const selectedWork = [
@@ -47,12 +47,12 @@
 	const customers = [
 		{
 			name: 'Willidrop',
-			logo: asset('/logos/willidrop.svg'),
+			logo: asset('logos/willidrop.svg'),
 			href: 'https://willidrop.com/'
 		},
 		{
 			name: 'Cara8',
-			logo: asset('/logos/cara8.svg'),
+			logo: asset('logos/cara8.svg'),
 			href: 'https://cara8.ai/'
 		}
 	];

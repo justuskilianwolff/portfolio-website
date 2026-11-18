@@ -1,5 +1,5 @@
 <script lang="ts">
-	import OgCard from '$lib/OgCard.svelte';
+	import OgCard from '#lib/OgCard.svelte';
 </script>
 
 <svelte:head>

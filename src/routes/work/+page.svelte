@@ -1,6 +1,6 @@
 <script lang="ts">
-	import TimelineEvent from '$lib/TimelineEvent.svelte';
-	import { experience, projects } from '$lib/data/work';
+	import TimelineEvent from '#lib/TimelineEvent.svelte';
+	import { experience, projects } from '#lib/data/work.ts';
 </script>
 
 <svelte:head>

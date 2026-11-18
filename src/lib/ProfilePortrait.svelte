@@ -5,9 +5,9 @@
 </script>
 
 <picture class="block">
-	<source srcset={asset('/profile_image.webp')} type="image/webp" />
+	<source srcset={asset('profile_image.webp')} type="image/webp" />
 	<img
-		src={asset('/profile_image.jpg')}
+		src={asset('profile_image.jpg')}
 		alt="Justus Kilian Wolff"
 		class="aspect-[4/5] w-full object-cover object-[45%_50%]"
 		width="576"
