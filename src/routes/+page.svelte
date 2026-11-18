@@ -64,6 +64,28 @@
 		'Published optimisation research'
 	];
 
+	// schema.org Person data so search engines and AI tools can identify who the site is about.
+	const personJsonLd = JSON.stringify({
+		'@context': 'https://schema.org',
+		'@type': 'Person',
+		name: 'Justus Kilian Wolff',
+		alternateName: 'Justus Wolff',
+		jobTitle: 'Machine Learning and Optimisation Engineer',
+		url: 'https://justuskilianwolff.com/',
+		image: 'https://justuskilianwolff.com/profile_image.jpg',
+		address: {
+			'@type': 'PostalAddress',
+			addressLocality: 'Hamburg',
+			addressCountry: 'DE'
+		},
+		sameAs: [
+			'https://github.com/justuskilianwolff',
+			'https://www.linkedin.com/in/justus-kilian-wolff/'
+		]
+	}).replaceAll('<', '\\u003c');
+	// The closing tag is split so it doesn't end this component's <script> block.
+	const personJsonLdScript = `<script type="application/ld+json">${personJsonLd}</` + `script>`;
+
 	let heroViewportHeight = $state<string>();
 
 	onMount(() => {
@@ -123,6 +145,8 @@
 		name="twitter:description"
 		content="Machine learning and optimisation for forecasting, planning, and operational decision-making."
 	/>
+	<!-- eslint-disable-next-line svelte/no-at-html-tags -- static JSON with < escaped -->
+	{@html personJsonLdScript}
 </svelte:head>
 
 <!-- Hero -->
