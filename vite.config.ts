@@ -16,7 +16,8 @@ export default defineConfig({
 				// these options are set automatically — see below
 				pages: 'build',
 				assets: 'build',
-				fallback: undefined, //TODO
+				// GitHub Pages serves 404.html for unknown paths
+				fallback: '404.html',
 				precompress: false,
 				strict: true
 			}),
