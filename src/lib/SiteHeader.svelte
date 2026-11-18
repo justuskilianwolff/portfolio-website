@@ -7,7 +7,6 @@
 		<a
 			href={resolve('/')}
 			class="min-w-0 shrink font-mono text-xs font-medium tracking-tight text-white no-underline sm:text-sm"
-			aria-label="Justus Kilian Wolff, home"
 		>
 			<span class="min-[380px]:hidden">JW</span>
 			<span class="hidden min-[380px]:inline sm:hidden">Justus Wolff</span>
