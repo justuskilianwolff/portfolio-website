@@ -1,6 +1,6 @@
 # Justus Kilian Wolff — Portfolio
 
-A statically generated portfolio for an optimisation and machine-learning engineer. It is built with SvelteKit 2, Svelte 5, Tailwind CSS 4, and deployed to GitHub Pages.
+A statically generated portfolio for an optimisation and machine-learning engineer. It is built with SvelteKit 3, Svelte 5, Tailwind CSS 4, and deployed to GitHub Pages.
 
 ## Current status
 
