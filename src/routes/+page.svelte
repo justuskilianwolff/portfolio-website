@@ -109,7 +109,7 @@
 	<title>Justus Wolff | Machine Learning & Optimisation</title>
 	<meta
 		name="description"
-		content="Independent machine-learning and optimisation engineer building forecasting, planning, scheduling, and operational decision systems."
+		content="Independent machine-learning and optimisation engineer in Hamburg, building forecasting, planning, scheduling, and operational decision systems."
 	/>
 	<link rel="canonical" href="https://justuskilianwolff.com/" />
 	<meta property="og:title" content="Prediction and decision systems for complex operations" />
