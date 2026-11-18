@@ -15,7 +15,7 @@
 	/>
 </svelte:head>
 
-<div class="mx-auto max-w-5xl px-5 py-20 sm:px-8 sm:py-28">
+<div lang="de" class="mx-auto max-w-5xl px-5 py-20 sm:px-8 sm:py-28">
 	<header class="max-w-3xl">
 		<p class="eyebrow">Rechtliches</p>
 		<h1 class="page-heading mt-5 font-mono">Impressum & Datenschutz</h1>
